@@ -19,6 +19,11 @@
         ```
         brew install openjdk@11
         ```
+    * Atlassian SDK
+        ```
+        brew tap atlassian/tap
+        brew install atlassian/tap/atlassian-plugin-sdk
+        ```
 * tunnelblick
 * chrome
 * jetbrains toolbox
