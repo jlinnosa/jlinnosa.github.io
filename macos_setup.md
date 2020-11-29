@@ -18,4 +18,7 @@
 * tunnelblick
 * chrome
 * jetbrains toolbox
-* xcode
+* from app store
+    * Xcode
+    * Apple Developer
+    * Amphetamine
