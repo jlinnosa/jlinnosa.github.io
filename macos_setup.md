@@ -30,6 +30,10 @@
         brew tap atlassian/tap
         brew install atlassian/tap/atlassian-plugin-sdk
         ```
+    * NodeJS
+        ```
+        brew install node
+        ```
 * Tunnelblick https://tunnelblick.net/
 * Google Chrome https://chrome.google.com/
 * JetBrains Toolbox https://www.jetbrains.com/toolbox-app/
