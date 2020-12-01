@@ -34,6 +34,10 @@
         ```
         brew install node
         ```
+    * Maven
+        ```
+        brew install maven
+        ```
 * Tunnelblick https://tunnelblick.net/
 * Google Chrome https://chrome.google.com/
 * JetBrains Toolbox https://www.jetbrains.com/toolbox-app/
