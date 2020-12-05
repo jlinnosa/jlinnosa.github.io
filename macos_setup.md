@@ -45,6 +45,7 @@
 * Google Chrome https://chrome.google.com/
 * JetBrains Toolbox https://www.jetbrains.com/toolbox-app/
 * Atlassian Sourcetree https://www.sourcetreeapp.com/
+* vlc https://www.videolan.org/vlc/index.html
 * from app store
     * Xcode
     * Apple Developer
