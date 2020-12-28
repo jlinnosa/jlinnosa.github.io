@@ -1,1 +1,0 @@
-# jlinnosa.github.io
