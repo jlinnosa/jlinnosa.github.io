@@ -10,7 +10,10 @@
 
 
 
-    <meta name="description" content="random notes by jsl">
+    <meta name="description" content="I run an instance of Ubiquiti&rsquo;s UISP (formerly UNMS) and it seems to collect information about discovered devices via SNMP. So, logically I want my Win10 workstations to provide some basic details to have the cool Professional Infrastructure look that one expects from one&rsquo;s home network.
+Quick googling tells me this should be simple: https://theitbros.com/snmp-service-on-windows-10/
+I fire up the admin powershell console and execute
+Add-WindowsCapability -Online -Name &quot;SNMP.Client~~~~0.0.1.0&quot; About configuration, I found this page: https://docs.">
 
 
 
@@ -22,7 +25,7 @@
     
 
 
-    <title>Posts | random notes by jsl</title>
+    <title>SNMP on Win10 | random notes by jsl</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -30,15 +33,22 @@
 
     
 
-    <meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://jlinnosa.github.io/posts/" />
-<meta property="og:updated_time" content="2021-01-12T14:27:18+02:00" />
+    <meta property="og:title" content="SNMP on Win10" />
+<meta property="og:description" content="I run an instance of Ubiquiti&rsquo;s UISP (formerly UNMS) and it seems to collect information about discovered devices via SNMP. So, logically I want my Win10 workstations to provide some basic details to have the cool Professional Infrastructure look that one expects from one&rsquo;s home network.
+Quick googling tells me this should be simple: https://theitbros.com/snmp-service-on-windows-10/
+I fire up the admin powershell console and execute
+Add-WindowsCapability -Online -Name &quot;SNMP.Client~~~~0.0.1.0&quot; About configuration, I found this page: https://docs." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jlinnosa.github.io/posts/snmp-on-win10/" />
+<meta property="article:published_time" content="2021-01-12T14:27:18+02:00" />
+<meta property="article:modified_time" content="2021-01-12T14:27:18+02:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="SNMP on Win10"/>
+<meta name="twitter:description" content="I run an instance of Ubiquiti&rsquo;s UISP (formerly UNMS) and it seems to collect information about discovered devices via SNMP. So, logically I want my Win10 workstations to provide some basic details to have the cool Professional Infrastructure look that one expects from one&rsquo;s home network.
+Quick googling tells me this should be simple: https://theitbros.com/snmp-service-on-windows-10/
+I fire up the admin powershell console and execute
+Add-WindowsCapability -Online -Name &quot;SNMP.Client~~~~0.0.1.0&quot; About configuration, I found this page: https://docs."/>
 
 
     <link rel="preload" as="font" href="/fonts/Metropolis.woff2" type="font/woff2" crossorigin="anonymous">
@@ -67,6 +77,49 @@
 <!-- Made with Geekblog theme https://github.com/thegeeklab/hugo-geekblog -->
 
     
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "posts",
+    "name": "SNMP on Win10",
+    "headline": "SNMP on Win10",
+    "alternativeHeadline": "",
+    "description": "I run an instance of Ubiquiti\u0026rsquo;s UISP (formerly UNMS) and it seems to collect information about discovered devices via SNMP. So, logically I want my Win10 workstations to provide some basic details to have the cool Professional Infrastructure look that one expects from one\u0026rsquo;s home network.\nQuick googling tells me this should be simple: https:\/\/theitbros.com\/snmp-service-on-windows-10\/\nI fire up the admin powershell console and execute\nAdd-WindowsCapability -Online -Name \u0026quot;SNMP.Client~~~~0.0.1.0\u0026quot; About configuration, I found this page: https:\/\/docs.",
+    "inLanguage": "en",
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/jlinnosa.github.io\/posts\/snmp-on-win10\/"
+    },
+    "author" : [
+    ],
+    "copyrightHolder" : "random notes by jsl",
+    "copyrightYear" : "2021",
+    "dateCreated": "2021-01-12T14:27:18.00Z",
+    "datePublished": "2021-01-12T14:27:18.00Z",
+    "dateModified": "2021-01-12T14:27:18.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": "random notes by jsl",
+        "url": "https://jlinnosa.github.io/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/jlinnosa.github.io\/brand.svg",
+            "width":"32",
+            "height":"32"
+        }
+    },
+    "url" : "https:\/\/jlinnosa.github.io\/posts\/snmp-on-win10\/",
+    "wordCount" : "109",
+    "genre" : [ "Windows" ]
+}
+</script>
+
 
 </head>
 
@@ -116,143 +169,56 @@
 
         <main class="gblog-page container">
             
-    
-    
-
-    
-    
     <article class="gblog-post">
         <header class="gblog-post__header">
-            <h1><a href="/posts/snmp-on-win10/">SNMP on Win10</a></h1>
+            
+            
+
+            <h1>SNMP on Win10</h1>
+            
+            <div class="gblog-post__meta">
+                <span class="no-wrap">
+                    <svg class="icon date"><use xlink:href="#date"></use></svg>
+                    <span class="gblog-post__tag">
+                        <time datetime="2021-01-12T14:27:18&#43;02:00">
+                            
+                            Jan 12, 2021
+                        </time>
+                    </span>
+                </span>
+
+                <span class="no-wrap">
+                    <svg class="icon timer"><use xlink:href="#timer"></use></svg>
+                    <span class="gblog-post__tag">1 min read</span>
+                </span>
+            </div>
+            
         </header>
 
         <section class="gblog-markdown">
-            I run an instance of Ubiquiti&rsquo;s UISP (formerly UNMS) and it seems to collect information about discovered devices via SNMP. So, logically I want my Win10 workstations to provide some basic details to have the cool Professional Infrastructure look that one expects from one&rsquo;s home network.
-Quick googling tells me this should be simple: https://theitbros.com/snmp-service-on-windows-10/
-I fire up the admin powershell console and execute
-Add-WindowsCapability -Online -Name &quot;SNMP.Client~~~~0.0.1.0&quot; About configuration, I found this page: https://docs.
+            
+
+
+
+    
+
+
+<p>I run an instance of Ubiquiti&rsquo;s UISP (formerly UNMS) and it seems to collect information about
+discovered devices via SNMP. So, logically I want my Win10 workstations to provide some basic
+details to have the cool Professional Infrastructure look that one expects from one&rsquo;s home network.</p>
+<p>Quick googling tells me this should be simple:
+<a href="https://theitbros.com/snmp-service-on-windows-10/">https://theitbros.com/snmp-service-on-windows-10/</a></p>
+<p>I fire up the admin powershell console and execute</p>
+<pre><code>Add-WindowsCapability -Online -Name &quot;SNMP.Client~~~~0.0.1.0&quot;
+</code></pre><p>About configuration, I found this page:
+<a href="https://docs.microsoft.com/en-us/troubleshoot/windows-server/networking/configure-snmp-service">https://docs.microsoft.com/en-us/troubleshoot/windows-server/networking/configure-snmp-service</a>
+and eventually this page: <a href="https://social.technet.microsoft.com/wiki/contents/articles/4032.how-to-install-snmp-remotely.aspx">https://social.technet.microsoft.com/wiki/contents/articles/4032.how-to-install-snmp-remotely.aspx</a>.
+Using these I found the correct registry branch at <code>Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SNMP</code> and was able to have the machine reply to queries from my UISP server.</p>
+<p>And there was much rejoicing!</p>
+
+
         </section>
-        <div class="gblog-post__readmore">
-            
-            <a class="flex-inline align-center fake-link" title="Read full post" href="/posts/snmp-on-win10/">Read full post</a>
-            
-        </div>
-
-        <footer class="gblog-post__footer">
-            <span class="no-wrap">
-                <svg class="icon date"><use xlink:href="#date"></use></svg>
-                <span class="gblog-post__tag">
-                    <time datetime="2021-01-12T14:27:18&#43;02:00">
-                        
-                        Jan 12, 2021
-                    </time>
-                </span>
-            </span>
-
-            <span class="no-wrap">
-                <svg class="icon timer"><use xlink:href="#timer"></use></svg>
-                <span class="gblog-post__tag">1 min read</span>
-            </span>
-
-            
-
-            
-            
-
-            
-            
-            
-                
-                
-                    
-                    <span class="no-wrap">
-                    <svg class="icon bookmarks"><use xlink:href="#bookmarks"></use></svg>
-                    
-<span class="gblog-post__tag gblog-button">
-    <a class="gblog-button__link" href="/tags/windows/" title="All posts tagged with 'Windows'">Windows</a>
-</span>
-
-                    </span>
-                    
-                
-                
-            
-            
-        </footer>
     </article>
-    
-    <article class="gblog-post">
-        <header class="gblog-post__header">
-            <h1><a href="/posts/macos-big-sur-setup/">macOS Big Sur Setup</a></h1>
-        </header>
-
-        <section class="gblog-markdown">
-            Big Sur gave me the chance to clean up my MacBook and start from scratch again. Here are my notes to get going again&hellip;
-software  dotfiles git clone git@github.com:jlinnosa/dotfiles.git ~/.dotfiles ~/.dotfiles/install.sh  homebrew https://brew.sh  tmux brew install tmux  alpine brew install alpine  nerd fonts brew tap homebrew/cask-fonts brew cask install font-hack-nerd-font  openjdk brew install openjdk@8 brew install openjdk@11 brew install openjdk sudo ln -sfn /usr/local/opt/openjdk@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-8.
-        </section>
-        <div class="gblog-post__readmore">
-            
-            <a class="flex-inline align-center fake-link" title="Read full post" href="/posts/macos-big-sur-setup/">Read full post</a>
-            
-        </div>
-
-        <footer class="gblog-post__footer">
-            <span class="no-wrap">
-                <svg class="icon date"><use xlink:href="#date"></use></svg>
-                <span class="gblog-post__tag">
-                    <time datetime="2020-12-29T00:53:10&#43;02:00">
-                        
-                            Updated on
-                        
-                        Dec 29, 2020
-                    </time>
-                </span>
-            </span>
-
-            <span class="no-wrap">
-                <svg class="icon timer"><use xlink:href="#timer"></use></svg>
-                <span class="gblog-post__tag">1 min read</span>
-            </span>
-
-            
-
-            
-            
-
-            
-            
-            
-                
-                
-                    
-                    <span class="no-wrap">
-                    <svg class="icon bookmarks"><use xlink:href="#bookmarks"></use></svg>
-                    
-<span class="gblog-post__tag gblog-button">
-    <a class="gblog-button__link" href="/tags/macos/" title="All posts tagged with 'macOS'">macOS</a>
-</span>
-
-                    </span>
-                    
-                
-                
-            
-            
-        </footer>
-    </article>
-    
-    
-
-<nav class="gblog-paging flex flex-even align-center" role="navigation">
-    <div class="gblog-paging__item gblog-paging__item--prev">
-    
-    </div>
-    <div class="gblog-paging__state">Page 1 of 1</div>
-    <div class="gblog-paging__item gblog-paging__item--next">
-    
-    </div>
-</nav>
-
 
         </main>
 

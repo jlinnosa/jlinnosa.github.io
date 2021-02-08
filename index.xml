@@ -6,7 +6,19 @@
     <description>Recent content on random notes by jsl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Nov 2020 10:49:08 +0200</lastBuildDate><atom:link href="https://jlinnosa.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Jan 2021 14:27:18 +0200</lastBuildDate><atom:link href="https://jlinnosa.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SNMP on Win10</title>
+      <link>https://jlinnosa.github.io/posts/snmp-on-win10/</link>
+      <pubDate>Tue, 12 Jan 2021 14:27:18 +0200</pubDate>
+      
+      <guid>https://jlinnosa.github.io/posts/snmp-on-win10/</guid>
+      <description>I run an instance of Ubiquiti&amp;rsquo;s UISP (formerly UNMS) and it seems to collect information about discovered devices via SNMP. So, logically I want my Win10 workstations to provide some basic details to have the cool Professional Infrastructure look that one expects from one&amp;rsquo;s home network.
+Quick googling tells me this should be simple: https://theitbros.com/snmp-service-on-windows-10/
+I fire up the admin powershell console and execute
+Add-WindowsCapability -Online -Name &amp;quot;SNMP.Client~~~~0.0.1.0&amp;quot; About configuration, I found this page: https://docs.</description>
+    </item>
+    
     <item>
       <title>macOS Big Sur Setup</title>
       <link>https://jlinnosa.github.io/posts/macos-big-sur-setup/</link>

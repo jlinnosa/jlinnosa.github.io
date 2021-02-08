@@ -35,7 +35,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://jlinnosa.github.io/" />
-<meta property="og:updated_time" content="2020-12-29T00:53:10+02:00" />
+<meta property="og:updated_time" content="2021-01-12T14:27:18+02:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="random notes by jsl"/>
@@ -115,6 +115,13 @@
         </li>
         
         
+        
+        <li>
+            <a class="gblog-nav__entry " href="/tags/windows/">Windows</a>
+        </li>
+        
+        
+        
     </ul>
 </nav>
 
@@ -127,6 +134,66 @@
     
 
     
+    
+    <article class="gblog-post">
+        <header class="gblog-post__header">
+            <h1><a href="/posts/snmp-on-win10/">SNMP on Win10</a></h1>
+        </header>
+
+        <section class="gblog-markdown">
+            I run an instance of Ubiquiti&rsquo;s UISP (formerly UNMS) and it seems to collect information about discovered devices via SNMP. So, logically I want my Win10 workstations to provide some basic details to have the cool Professional Infrastructure look that one expects from one&rsquo;s home network.
+Quick googling tells me this should be simple: https://theitbros.com/snmp-service-on-windows-10/
+I fire up the admin powershell console and execute
+Add-WindowsCapability -Online -Name &quot;SNMP.Client~~~~0.0.1.0&quot; About configuration, I found this page: https://docs.
+        </section>
+        <div class="gblog-post__readmore">
+            
+            <a class="flex-inline align-center fake-link" title="Read full post" href="/posts/snmp-on-win10/">Read full post</a>
+            
+        </div>
+
+        <footer class="gblog-post__footer">
+            <span class="no-wrap">
+                <svg class="icon date"><use xlink:href="#date"></use></svg>
+                <span class="gblog-post__tag">
+                    <time datetime="2021-01-12T14:27:18&#43;02:00">
+                        
+                        Jan 12, 2021
+                    </time>
+                </span>
+            </span>
+
+            <span class="no-wrap">
+                <svg class="icon timer"><use xlink:href="#timer"></use></svg>
+                <span class="gblog-post__tag">1 min read</span>
+            </span>
+
+            
+
+            
+            
+
+            
+            
+            
+                
+                
+                    
+                    <span class="no-wrap">
+                    <svg class="icon bookmarks"><use xlink:href="#bookmarks"></use></svg>
+                    
+<span class="gblog-post__tag gblog-button">
+    <a class="gblog-button__link" href="/tags/windows/" title="All posts tagged with 'Windows'">Windows</a>
+</span>
+
+                    </span>
+                    
+                
+                
+            
+            
+        </footer>
+    </article>
     
     <article class="gblog-post">
         <header class="gblog-post__header">
@@ -204,22 +271,21 @@ software  dotfiles git clone git@github.com:jlinnosa/dotfiles.git ~/.dotfiles ~/
         </main>
 
         <footer class="gblog-footer">
-    <div class="container">
-        <div class="flex flex-wrap align-center">
+    <nav class="container">
+        <section class="flex flex-wrap align-center">
             
             
             
             
-            
-        </div>
-        <div class="flex flex-wrap align-center">
+        </section>
+        <section class="flex flex-wrap align-center">
             <span class="gblog-footer__item">
                 Built with <a href="https://gohugo.io/" class="gblog-footer__link">Hugo</a> and
                 <svg class="icon heart"><use xlink:href="#heart"></use></svg>
             </span>
-        </div>
+        </section>
         
-    </div>
+    </nav>
 </footer>
 
     </div>
